@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contentdiv{
+    position: absolute;
+    left: 500px;
+}
+#startdiv{
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 3;
+    width: 512px;
+    height: 667px;
+    background-image: url("../image/img_bg_logo.jpg");
+}
+button{
+    outline: none;
+}
+#startdiv>div{
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:#FCE99E;
+    margin-top: 20px;
+    color: #dc8218;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 130px;
+    margin-top: 15px;
+    line-height: 40px;
+    cursor: pointer;
+}
+#startdiv>img{
+    margin-top: 150px;
+    margin-left:16px;
+    cursor: pointer;
+}
+#maindiv{
+    width: 512px;
+    height: 667px;
+    background-image:url(../image/img_bg_level_3.jpg) ;
+    display: none;
+}
+#maindiv img{
+    position: absolute;
+    z-index: 1;
+}
+#scorediv{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#scorediv>label{
+   color:#dc8218;
+}
+#suspenddiv{
+    position: absolute;
+    top: 210px;
+    left: 82px;
+    display: none;
+    z-index: 2;
+}
+#suspenddiv button{
+    width: 270px;
+    height: 40px;
+    margin-left:40px;
+    border-radius: 5px;
+    background-color:#FCE99E;
+    margin-top: 20px;
+    color: #dc8218;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+#enddiv{
+    position: absolute;
+    top:260px;
+    left:180px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#FCE99E;
+    display: none;
+    z-index: 2;
+}
+.plantext{
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    border-left-top-radius:5px;
+    border-right-top-radius:5px;
+    color: #dc8218;
+}
+#planscore{
+    width: 160px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    border-top:1px solid white;
+    color: #dc8218;
+}
+#jixua>button{
+    outline: none;
+    border: none;
+    color: #dc8218;
+    border-left-buttom-radius:5px;
+    border-right-buttom-radius:5px;
+    background-color:#FCE99E;
+}
+#enddiv div{
+    width: 160px;
+    height:35px;
+}
+#enddiv div button{
+    margin-top:10px ;
+    width: 90px;
+    height:15px;
+    border-radius: 30px;
+}

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+<title>全民飞机大战演示页面</title>
+</head>
+<body>
+<div id="contentdiv">
+    <div id="startdiv">
+        <img src="image/LOGO.png" width="480px">
+        <div id="start" onclick="begin()">Start Game</div>
+        <div id="exit" onclick="ExitGame()">Exit</div>
+    </div>
+    <div id="maindiv">
+        <div id="scorediv">
+            <label>Fraction：</label>
+            <label id="label">0</label>
+        </div>
+        <div id="suspenddiv">
+            <button>Continue</button><br/>
+            <button>Return to home
+            </button>
+        </div>
+        <div id="enddiv">
+            <p class="plantext">The total score</p>
+            <p id="planscore">0</p>
+            <div id="jixua"><button onclick="jixu()">Continue</button></div>
+        </div>
+    </div>
+</div>
+<div>
+    <audio id="zhuxuanlv" src="audio/bgm_zhuxuanlv.mp3" loop></audio>
+    <audio id="click-music" src="audio/effcet_sfx_shiqu.mp3"></audio>
+    <audio id="fight-music" src="audio/bgm_zhandou2.mp3" loop></audio>
+    <audio id="fire-music" src="audio/arrow_shot.wav"></audio>
+    <audio id="hit-music" src="audio/meteorit_explode.mp3"></audio>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
